@@ -1,8 +1,7 @@
 class Person
 
-  def initialize(name, breed = "Mutt")
+  def initialize(name)
     @name = name
-    @breed = breed
   end
 
   def name
@@ -13,7 +12,4 @@ class Person
     @name
   end
 
-  def breed
-    @breed
-  end
 end
